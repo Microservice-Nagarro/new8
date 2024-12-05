@@ -46,7 +46,7 @@ variables:
 - name: repository
   value: 'BHF.MS.Template' # Change me - repository name
 - name: dockerPath
-  value: 'code/BHF.MS.MyMicroservice' # Change me - relative path to the folder containing Dockerfile
+  value: 'code/BHF.MS.new8' # Change me - relative path to the folder containing Dockerfile
 
 stages:
   - stage: 'Build_and_Publish_Microservice'
@@ -186,3 +186,4 @@ stages:
                   azureResourceGroup: 'ukw-dr-microservices-rsg'
                   kubernetesCluster:  'ukw-dr-ms-aks'
                   DeployConfigMap:    '${{parameters.DeployConfigMapDR}}'
+

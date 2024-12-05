@@ -1,7 +1,7 @@
-﻿apiVersion: v1
+apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: mymicroservice-configmap
+  name: new8-configmap
 data:
   appsettings.Production.json: |-
     {

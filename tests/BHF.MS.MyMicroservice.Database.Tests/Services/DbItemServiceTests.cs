@@ -1,14 +1,14 @@
-using BHF.MS.MyMicroservice.Database.Context;
-using BHF.MS.MyMicroservice.Database.Context.Entities;
-using BHF.MS.MyMicroservice.Database.Models.DbItem;
-using BHF.MS.MyMicroservice.Database.Services;
+using BHF.MS.new8.Database.Context;
+using BHF.MS.new8.Database.Context.Entities;
+using BHF.MS.new8.Database.Models.DbItem;
+using BHF.MS.new8.Database.Services;
 using FluentAssertions;
 using Microsoft.EntityFrameworkCore;
 using Moq;
 using Moq.EntityFrameworkCore;
 using System.Globalization;
 
-namespace BHF.MS.MyMicroservice.Database.Tests.Services
+namespace BHF.MS.new8.Database.Tests.Services
 {
     public sealed class DbItemServiceTests
     {
@@ -190,3 +190,4 @@ namespace BHF.MS.MyMicroservice.Database.Tests.Services
         }
     }
 }
+

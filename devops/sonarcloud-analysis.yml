@@ -17,7 +17,7 @@ variables:
 - name: repository
   value: 'BHF.MS.Template' # Change me
 - name: dockerPath
-  value: 'code/BHF.MS.MyMicroservice' # Change me - relative path to the folder containing Dockerfile
+  value: 'code/BHF.MS.new8' # Change me - relative path to the folder containing Dockerfile
 - name: sonarCloud
   value: 'SonarCloud BHF.Website'
 - name: organization
@@ -64,3 +64,4 @@ stages:
             projectName:       '$(projectName)'
             keyvaultName:      'uks-common-kvlt'        
         - template: /devops/templates/build/run-code-analysis.yml@BHF.Microservices
+

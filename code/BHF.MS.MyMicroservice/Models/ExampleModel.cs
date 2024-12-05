@@ -1,8 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.CodeAnalysis;
 using Newtonsoft.Json;
 
-namespace BHF.MS.MyMicroservice.Models
+namespace BHF.MS.new8.Models
 {
     [ExcludeFromCodeCoverage(Justification = "It's a model with no logic")]
     public class ExampleModel
@@ -26,3 +26,4 @@ namespace BHF.MS.MyMicroservice.Models
         public Dictionary<string, string>? Customisations { get; set; }
     }
 }
+

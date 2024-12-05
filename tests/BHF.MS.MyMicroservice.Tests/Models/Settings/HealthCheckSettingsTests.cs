@@ -1,7 +1,7 @@
-using BHF.MS.MyMicroservice.Models.Settings;
+using BHF.MS.new8.Models.Settings;
 using FluentAssertions;
 
-namespace BHF.MS.MyMicroservice.Tests.Models.Settings
+namespace BHF.MS.new8.Tests.Models.Settings
 {
     public sealed class HealthCheckSettingsTests
     {
@@ -19,3 +19,4 @@ namespace BHF.MS.MyMicroservice.Tests.Models.Settings
         }
     }
 }
+

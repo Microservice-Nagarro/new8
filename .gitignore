@@ -398,5 +398,6 @@ FodyWeavers.xsd
 *.sln.iml
 
 # BHF custom
-/code/BHF.MS.MyMicroservice/yaml/configMap-development.yml
-/code/BHF.MS.MyMicroservice/appsettings.Development.json
+/code/BHF.MS.new8/yaml/configMap-development.yml
+/code/BHF.MS.new8/appsettings.Development.json
+

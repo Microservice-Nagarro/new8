@@ -1,6 +1,6 @@
-using BHF.MS.MyMicroservice.HealthCheck;
-using BHF.MS.MyMicroservice.Models.Settings;
-using BHF.MS.MyMicroservice.Services;
+using BHF.MS.new8.HealthCheck;
+using BHF.MS.new8.Models.Settings;
+using BHF.MS.new8.Services;
 using FluentAssertions;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Logging;
@@ -8,7 +8,7 @@ using Microsoft.Extensions.Options;
 using Moq;
 using System.Net;
 
-namespace BHF.MS.MyMicroservice.Tests.HealthCheck
+namespace BHF.MS.new8.Tests.HealthCheck
 {
     public sealed class ExampleServiceHealthCheckTests
     {
@@ -74,3 +74,4 @@ namespace BHF.MS.MyMicroservice.Tests.HealthCheck
         }
     }
 }
+

@@ -1,6 +1,6 @@
-﻿using System.Text.Json.Serialization;
+using System.Text.Json.Serialization;
 
-namespace BHF.MS.MyMicroservice.Database.Models.DbItem
+namespace BHF.MS.new8.Database.Models.DbItem
 {
     public class DbItemDto : DbItemCreateDto
     {
@@ -17,3 +17,4 @@ namespace BHF.MS.MyMicroservice.Database.Models.DbItem
         }
     }
 }
+

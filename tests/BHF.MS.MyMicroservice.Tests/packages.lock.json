@@ -2083,12 +2083,12 @@
         "resolved": "13.3.1",
         "contentHash": "Q2dqDsb0xAlr092grgHk8/vTXI2snIiYM5ND3IXkgJDFIdPnqDYwYnlk+gwzSeRByDLhiSzTog8uT7xFwH68Zg=="
       },
-      "bhf.ms.mymicroservice": {
+      "bhf.ms.new8": {
         "type": "Project",
         "dependencies": {
           "Azure.Extensions.AspNetCore.Configuration.Secrets": "[1.3.2, )",
           "Azure.Identity": "[1.12.0, )",
-          "BHF.MS.MyMicroservice.Database": "[1.0.0, )",
+          "BHF.MS.new8.Database": "[1.0.0, )",
           "Microsoft.ApplicationInsights.AspNetCore": "[2.22.0, )",
           "Microsoft.ApplicationInsights.Kubernetes": "[7.0.0, )",
           "Microsoft.ApplicationInsights.Profiler.AspNetCore": "[2.7.2, )",
@@ -2098,7 +2098,7 @@
           "Swashbuckle.AspNetCore": "[6.7.3, )"
         }
       },
-      "bhf.ms.mymicroservice.database": {
+      "bhf.ms.new8.database": {
         "type": "Project",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "[8.0.8, )",

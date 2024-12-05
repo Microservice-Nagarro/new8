@@ -1,15 +1,15 @@
-﻿apiVersion: apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mymicroservice-microservice
+  name: new8-microservice
 spec:
   selector:
     matchLabels:
-      app: mymicroservice-microservice
+      app: new8-microservice
   template:
     metadata:
       labels:
-        app: mymicroservice-microservice
+        app: new8-microservice
     spec:
       topologySpreadConstraints:
       - maxSkew: 1
@@ -17,13 +17,13 @@ spec:
         whenUnsatisfiable: ScheduleAnyway
         labelSelector:
           matchLabels:
-            app: mymicroservice-microservice
+            app: new8-microservice
       nodeSelector:
         "kubernetes.io/os": linux
       automountServiceAccountToken: false
       containers:
-      - name: mymicroservice-microservice
-        image: #{ContainerReg}#.azurecr.io/bhf.ms.mymicroservice:#{BuildRef}#
+      - name: new8-microservice
+        image: #{ContainerReg}#.azurecr.io/bhf.ms.new8:#{BuildRef}#
         ports:
         - containerPort: 8080
         livenessProbe:
@@ -55,17 +55,17 @@ spec:
       volumes:
       - name: appsettings-volume
         configMap:
-          name: mymicroservice-configmap
+          name: new8-configmap
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: mymicroservice-microservice
+  name: new8-microservice
   annotations:
     service.beta.kubernetes.io/azure-load-balancer-internal: "true"
 spec:
   selector:
-    app: mymicroservice-microservice
+    app: new8-microservice
   type: LoadBalancer
   ports:
   - port: 80

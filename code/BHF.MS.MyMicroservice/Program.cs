@@ -1,6 +1,6 @@
 using System.Diagnostics.CodeAnalysis;
 
-namespace BHF.MS.MyMicroservice
+namespace BHF.MS.new8
 {
     [ExcludeFromCodeCoverage(Justification = "It's a main Program class")]
     internal static class Program
@@ -44,3 +44,4 @@ namespace BHF.MS.MyMicroservice
         }
     }
 }
+

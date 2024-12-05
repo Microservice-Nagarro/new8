@@ -1,12 +1,12 @@
-using BHF.MS.MyMicroservice.Controllers;
-using BHF.MS.MyMicroservice.Database.Models.DbItem;
-using BHF.MS.MyMicroservice.Database.Services;
+using BHF.MS.new8.Controllers;
+using BHF.MS.new8.Database.Models.DbItem;
+using BHF.MS.new8.Database.Services;
 using FluentAssertions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
 using Moq;
 
-namespace BHF.MS.MyMicroservice.Tests.Controllers
+namespace BHF.MS.new8.Tests.Controllers
 {
     public class DbItemsControllerTests
     {
@@ -145,3 +145,4 @@ namespace BHF.MS.MyMicroservice.Tests.Controllers
         }
     }
 }
+

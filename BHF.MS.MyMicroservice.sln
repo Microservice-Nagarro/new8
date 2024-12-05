@@ -1,9 +1,9 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34302.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BHF.MS.MyMicroservice", "code\BHF.MS.MyMicroservice\BHF.MS.MyMicroservice.csproj", "{6417CE87-B6E5-4E1C-8488-129C1593748F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BHF.MS.new8", "code\BHF.MS.new8\BHF.MS.new8.csproj", "{6417CE87-B6E5-4E1C-8488-129C1593748F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{BF929896-7E34-4471-B1B7-1584D61CBCA9}"
 	ProjectSection(SolutionItems) = preProject
@@ -19,13 +19,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configurat
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BHF.MS.MyMicroservice.Database", "code\BHF.MS.MyMicroservice.Database\BHF.MS.MyMicroservice.Database.csproj", "{59310B83-A09C-4366-B44A-DC9B682BB9F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BHF.MS.new8.Database", "code\BHF.MS.new8.Database\BHF.MS.new8.Database.csproj", "{59310B83-A09C-4366-B44A-DC9B682BB9F7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C14A1192-F054-4BD9-9B95-DFE390B80826}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BHF.MS.MyMicroservice.Tests", "tests\BHF.MS.MyMicroservice.Tests\BHF.MS.MyMicroservice.Tests.csproj", "{65D95A7D-3897-43E3-AE9D-40BC8260DD1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BHF.MS.new8.Tests", "tests\BHF.MS.new8.Tests\BHF.MS.new8.Tests.csproj", "{65D95A7D-3897-43E3-AE9D-40BC8260DD1D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BHF.MS.MyMicroservice.Database.Tests", "tests\BHF.MS.MyMicroservice.Database.Tests\BHF.MS.MyMicroservice.Database.Tests.csproj", "{C03E232C-E55C-4D9E-9875-38D6CF35CD8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BHF.MS.new8.Database.Tests", "tests\BHF.MS.new8.Database.Tests\BHF.MS.new8.Database.Tests.csproj", "{C03E232C-E55C-4D9E-9875-38D6CF35CD8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,3 +61,4 @@ Global
 		SolutionGuid = {EE18F0AE-76F3-4A74-92BA-985E311F8A6C}
 	EndGlobalSection
 EndGlobal
+

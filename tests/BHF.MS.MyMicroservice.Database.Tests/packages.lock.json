@@ -631,7 +631,7 @@
           "xunit.extensibility.core": "[2.9.0]"
         }
       },
-      "bhf.ms.mymicroservice.database": {
+      "bhf.ms.new8.database": {
         "type": "Project",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "[8.0.8, )",

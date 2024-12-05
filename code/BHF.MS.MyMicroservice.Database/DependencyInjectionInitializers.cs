@@ -1,10 +1,10 @@
-﻿using BHF.MS.MyMicroservice.Database.Context;
-using BHF.MS.MyMicroservice.Database.Services;
+using BHF.MS.new8.Database.Context;
+using BHF.MS.new8.Database.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System.Diagnostics.CodeAnalysis;
 
-namespace BHF.MS.MyMicroservice.Database
+namespace BHF.MS.new8.Database
 {
     [ExcludeFromCodeCoverage(Justification = "It's an IoC initializer")]
     public static class DependencyInjectionInitializers
@@ -38,3 +38,4 @@ namespace BHF.MS.MyMicroservice.Database
         }
     }
 }
+

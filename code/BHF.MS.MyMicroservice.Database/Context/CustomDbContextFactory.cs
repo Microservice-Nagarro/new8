@@ -1,8 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using System.Diagnostics.CodeAnalysis;
 
-namespace BHF.MS.MyMicroservice.Database.Context
+namespace BHF.MS.new8.Database.Context
 {
     [ExcludeFromCodeCoverage(Justification = "It's EF context design-time factory implementation")]
     public class CustomDbContextFactory : IDesignTimeDbContextFactory<CustomDbContext>
@@ -15,3 +15,4 @@ namespace BHF.MS.MyMicroservice.Database.Context
         }
     }
 }
+

@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mymicroservice-microservice
+  name: new8-microservice
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: mymicroservice-microservice
+      app: new8-microservice
   template:
     metadata:
       labels:
-        app: mymicroservice-microservice
+        app: new8-microservice
     spec:
       topologySpreadConstraints:
       - maxSkew: 1
@@ -18,13 +18,13 @@ spec:
         whenUnsatisfiable: ScheduleAnyway
         labelSelector:
           matchLabels:
-            app: mymicroservice-microservice
+            app: new8-microservice
       nodeSelector:
         "kubernetes.io/os": linux
       automountServiceAccountToken: false
       containers:
-      - name: mymicroservice-microservice
-        image: mymicroservice-microservice:#{BuildRef}#
+      - name: new8-microservice
+        image: new8-microservice:#{BuildRef}#
         imagePullPolicy: Never
         env:
         - name: ASPNETCORE_ENVIRONMENT
@@ -60,15 +60,16 @@ spec:
       volumes:
       - name: appsettings-volume
         configMap:
-          name: mymicroservice-configmap
+          name: new8-configmap
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: mymicroservice-microservice
+  name: new8-microservice
 spec:
   selector:
-    app: mymicroservice-microservice
+    app: new8-microservice
   type: NodePort
   ports:
   - port: 8080
+

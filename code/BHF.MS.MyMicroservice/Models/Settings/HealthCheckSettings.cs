@@ -1,7 +1,8 @@
-﻿namespace BHF.MS.MyMicroservice.Models.Settings
+namespace BHF.MS.new8.Models.Settings
 {
     public class HealthCheckSettings
     {
         public byte AttemptsCount { get; set; } = 1;
     }
 }
+

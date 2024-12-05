@@ -1,7 +1,7 @@
-using BHF.MS.MyMicroservice.Database.Models.DbItem;
+using BHF.MS.new8.Database.Models.DbItem;
 using FluentAssertions;
 
-namespace BHF.MS.MyMicroservice.Database.Tests.Models.DbItem
+namespace BHF.MS.new8.Database.Tests.Models.DbItem
 {
     public sealed class DbItemCreateDtoTests
     {
@@ -20,3 +20,4 @@ namespace BHF.MS.MyMicroservice.Database.Tests.Models.DbItem
         }
     }
 }
+

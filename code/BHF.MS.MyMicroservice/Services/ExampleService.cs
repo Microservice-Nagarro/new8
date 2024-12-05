@@ -1,8 +1,8 @@
-﻿using BHF.MS.MyMicroservice.Models;
-using BHF.MS.MyMicroservice.Models.Settings;
+using BHF.MS.new8.Models;
+using BHF.MS.new8.Models.Settings;
 using Microsoft.Extensions.Options;
 
-namespace BHF.MS.MyMicroservice.Services
+namespace BHF.MS.new8.Services
 {
     public class ExampleService(HttpClient httpClient, IOptions<ServiceSettings> settings) : IExampleService
     {
@@ -17,3 +17,4 @@ namespace BHF.MS.MyMicroservice.Services
         }
     }
 }
+

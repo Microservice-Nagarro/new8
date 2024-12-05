@@ -1,8 +1,8 @@
-﻿using BHF.MS.MyMicroservice.Database.Models.DbItem;
+using BHF.MS.new8.Database.Models.DbItem;
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.CodeAnalysis;
 
-namespace BHF.MS.MyMicroservice.Database.Context.Entities
+namespace BHF.MS.new8.Database.Context.Entities
 {
     [ExcludeFromCodeCoverage(Justification = "It's EF entity")]
     public class DbItem
@@ -21,3 +21,4 @@ namespace BHF.MS.MyMicroservice.Database.Context.Entities
         }
     }
 }
+
